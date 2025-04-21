@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RFC BioProcessos - Soluções industriais em biorreatores para biofármacos, vacinas e biocombustíveis">
+    <title>RFC BioProcessos | Tecnologia em Bioprocessos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/img/Logo.png" alt="RFC BioProcessos" width="100">
+            </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html" class="cta-button">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i> <!-- Ícone X (hidden por padrão) -->
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section com Vídeo Background -->
+    <section class="hero">
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="assets/img/Bio.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Somos especialista em Tecnologia de Ponta em <span>Biorreatores</span></h1>
+            <p>Entregamos soluções na indústria biotecnológica, farmacêutica, química e de alimentos.</p>
+            <div class="hero-buttons">
+                <a href="servicos.html" class="cta-button">Nossos Serviços</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços em Destaque -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Soluções <span>Especializadas</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/img/project-management.png" alt="Design de Biorreatores" width="80">
+                    </div>
+                    <h3>Projetos de Equipamentos</h3>
+                    <p>Desenvolvimento e execução de projetos de equipamentos, desde a concepção até a implementação, garantindo eficiência, inovação e alta performance para diversas indústrias.</p>
+                    <a href="servicos.html#design" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/img/bioreactor.png" alt="Fermentação" width="80">
+                    </div>
+                    <h3>Polimento de Equipamentos e Assistência Técnica</h3>
+                    <p>Oferecemos serviços especializados de polimento de equipamentos e assistência técnica, garantindo alta durabilidade, desempenho otimizado e manutenção de qualidade para sua operação.</p>
+                    <a href="servicos.html#otimizacao" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/img/Consultoria.png" alt="Validação" width="80">
+                    </div>
+                    <h3>Consultoria em Bioprocessos</h3>
+                    <p>Fornecemos consultoria especializada em bioprocessos, auxiliando na otimização de operações, desenvolvimento de soluções inovadoras e melhoria da eficiência produtiva no setor biotecnológico.</p>
+                    <a href="servicos.html#validacao" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nós (Destaque) Atualizado -->
+<section class="about">
+    <div class="container">
+        <div class="about-content">
+            <h2><span class="counter" data-target="20">0</span> Anos de <span>Excelência</span></h2>
+            <p>Nossa empresa se destaca pela expertise na fabricação de biorreatores de alto desempenho, projetados para atender às demandas da biotecnologia moderna. Com tecnologia de ponta e um compromisso contínuo com a inovação, oferecemos soluções personalizadas que aumentam a eficiência dos bioprocessos industriais, garantindo resultados superiores e sustentáveis para nossos clientes.</p>
+            <ul class="about-features">
+                <li><i class="fas fa-check-circle"></i> Equipe com PhD em Bioprocessos</li>
+                <li><i class="fas fa-check-circle"></i> Instalações certificadas pela ANVISA</li>
+                <li><i class="fas fa-check-circle"></i> <span class="counter" data-target="150">0</span> projetos implementados</li>
+            </ul>
+            <a href="sobre.html" class="cta-button">Nossa História</a>
+        </div>
+        <div class="about-image">
+            <img src="assets/img/equipe.jpg" alt="Equipe RFC BioProcessos">
+        </div>
+    </div>
+</section>
+
+<!-- Seção Parcerias -->
+<section class="partners">
+    <div class="partners-overlay"></div>
+    <div class="container">
+        <h2 class="section-title">Essas empresas confiam em nosso trabalho</h2>
+        <p class="section-subtitle">Colaboramos com as melhores empresas do mercado</p>
+        
+        <div class="partners-carousel">
+            <div class="partners-grid">
+                <!-- Itens do carrossel serão duplicados via JavaScript -->
+                <div class="partner-card">
+                    <img src="assets/img/Apoena.jpg" alt="Apoema biotech">
+                    <div class="partner-info">
+                        <h3>Apoema Biotech</h3>
+                        <p>Focada no desenvolvimento de ingredientes biológicos sustentáveis para as indústrias agrícola e cosmética.</p>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <img src="assets/img/Bio Breyer.png" alt="Universidade Tech">
+                    <div class="partner-info">
+                        <h3>Bio Breyer</h3>
+                        <p>Especialista em biorreatores e bioprocessos para fermentação industrial e biotecnologia sustentável.</p>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <img src="assets/img/ophicina.png" alt="BioSolutions">
+                    <div class="partner-info">
+                        <h3>Ophicina - Orgânica</h3>
+                        <p>Oferece insumos para agricultura sustentável, como fertilizantes e compostagem, promovendo práticas ecológicas e naturais.</p>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <img src="assets/img/Itatijuca.png" alt="Indústria Farma">
+                    <div class="partner-info">
+                        <h3>Itatijuca Biotech</h3>
+                        <p>Especializada em biotecnologia industrial, focada em biofertilizantes e soluções para a agricultura e mineração.</p>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <img src="assets/img/Agrinor.jpg" alt="Indústria Farma">
+                    <div class="partner-info">
+                        <h3>Agrinor Bio-Inovação</h3>
+                        <p>Oferece produtos agrícolas como bioinsumos, adjuvantes e soluções inovadoras, agricultura sustentável e regenerativa.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer Premium -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/img/Logo.png" alt="RFC BioProcessos" width="80">
+                    <p>Tecnologia e inovação em bioprocessos industriais desde 2014.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/suapagina" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="http://wa.me/5511988095596"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="#clientes">Clientes</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo - SP, Brasil</li>
+                        <li><a href="http://wa.me/5511988095596"><i class="fas fa-phone"></i> +55 (11) 98809-5596</li></a>
+                        <li><i class="fas fa-envelope"></i> contato@rfcbioprocessos.com.br</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2023 RFC BioProcessos. Todos os direitos reservados.</p>
+                <div class="legal-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Serviço</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot IA Avançado -->
+    <div id="chatbot-ia" class="chatbot-container">
+        <div class="chatbot-header">
+            <h3><i class="fas fa-robot"></i> Assistente de Biorreatores</h3>
+            <button id="close-chatbot"><i class="fas fa-times"></i></button>
+        </div>
+        <div id="chatbot-messages" class="chatbot-messages">
+            <div class="bot-message">
+                <p>Oi! Sou a Bia, assistente da RFC, e estou aqui para te ajudar com os biorreatores. Sobre o que você gostaria de saber?</p>
+                <ul>
+                    <li>Tipos de biorreatores</li>
+                    <li>Escalonamento de processos</li>
+                    <li>Problemas comuns</li>
+                </ul>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="user-input" placeholder="Ex: Como escolher um biorreator?">
+            <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+        <i class="fas fa-robot"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/chatbot.js"></script>
+</body>
+</html>

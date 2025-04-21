@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RFC BioProcessos - Soluções industriais em biorreatores para biofármacos, vacinas e biocombustíveis">
+    <title>Contato | Tecnologia em Bioprocessos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API&callback=initMap" async defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/img/Logo.png" alt="RFC BioProcessos" width="100">
+            </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html" class="cta-button">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i> <!-- Ícone X (hidden por padrão) -->
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Fale <span>Conosco</span></h1>
+            <p>Estamos prontos para atender suas necessidades em bioprocessos</p>
+        </div>
+    </section>
+
+    <!-- Formulário e Contatos -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Formulário -->
+                <div class="form-container">
+                    <h2>Envie sua Mensagem</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nome Completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" required>
+                                <option value="">Assunto</option>
+                                <option value="Orçamento">Orçamento</option>
+                                <option value="Suporte Técnico">Suporte Técnico</option>
+                                <option value="Trabalhe Conosco">Trabalhe Conosco</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Sua mensagem..." required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label class="radio-label">
+                                <input type="radio" name="contactMethod" value="WhatsApp" checked>
+                                <span>Prefiro contato por WhatsApp</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="contactMethod" value="Email">
+                                <span>Prefiro contato por E-mail</span>
+                            </label>
+                        </div>
+                        <button type="submit" class="cta-button">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Informações de Contato -->
+                <div class="contact-info">
+                    <h2>Outras Formas de Contato</h2>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Telefone</h3>
+                        <a href="tel:+5511988095596">(11) 98809-5596</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>E-mail</h3>
+                        <a href="mailto:contato@rfcbioprocessos.com.br">contato@rfcbioprocessos.com.br</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Endereço</h3>
+                        <p>Rua General Câmara, 163<br>Guarulhos - SP<br>CEP 07042-200</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Encontre-nos</h2>
+            <p class="section-subtitle">Nosso escritório e fábricas estão localizados em Guarulhos - SP</p>
+            
+            <div class="map-container">
+                <div id="map"></div>
+                <div class="map-info">
+                    <h3><i class="fas fa-building"></i> RFC BioProcessos</h3>
+                    <p><i class="fas fa-map-pin"></i> Rua General Câmara, 163 - Guarulhos/SP</p>
+                    <p><i class="fas fa-clock"></i> Seg-Sex: 8h às 18h</p>
+                    <a href="https://maps.app.goo.gl/SEU_LINK_GOOGLE_MAPS" target="_blank" class="map-link">
+                        <i class="fas fa-directions"></i> Ver rotas no Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/img/Logo.png" alt="RFC BioProcessos" width="80">
+                    <p>Tecnologia e inovação em bioprocessos industriais desde 2004.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo - SP, Brasil</li>
+                        <li><i class="fas fa-phone"></i> (11) 98809-5596</li>
+                        <li><i class="fas fa-envelope"></i> contato@rfcbioprocessos.com.br</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 RFC BioProcessos. Todos os direitos reservados.</p>
+                <div class="legal-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Serviço</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/contato.js"></script>
+    <script src="assets/js/chatbot.js"></script>
+</body>
+</html>

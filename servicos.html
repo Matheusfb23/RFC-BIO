@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RFC BioProcessos - 20 anos de excelência em tecnologia de biorreatores">
+    <title>Serviços especializados | RFC BioProcessos</title>
+    <link rel="stylesheet" href="assets/css/servicos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Fontes e ícones (mesmo da home) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<!-- Modal Gallery -->
+<div class="modal-gallery" id="cases-modal">
+    <div class="modal-container">
+        <button class="close-modal">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <div class="gallery-carousel">
+            <!-- Slide 1 -->
+            <div class="carousel-slide active">
+                <img src="assets/img/polimentos/P1.jpg" alt="Antes do polimento">
+                <div class="slide-caption">
+                    <h4>Antes do polimento</h4>
+                    <p>Superfície com irregularidades e difícil limpeza</p>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="carousel-slide">
+                <img src="assets/img/polimentos/P2.jpg" alt="Processo de polimento">
+                <div class="slide-caption">
+                    <h4>Processo de polimento</h4>
+                    <p>Aplicação da técnica RFC de acabamento</p>
+                </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="carousel-slide">
+                <img src="assets/img/polimentos/P3.jpg" alt="Resultado final">
+                <div class="slide-caption">
+                    <h4>Resultado final</h4>
+                    <p>Superfície espelhada e sanitariamente aprovada</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="carousel-controls">
+            <button class="carousel-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="carousel-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<body>
+    <!-- Header (igual às outras páginas) -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/img/Logo.png" alt="RFC BioProcessos" width="100">
+            </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html" class="active">Sobre Nós</a></li>
+                    <li><a href="contato.html" class="cta-button">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times close-icon"></i> <!-- Ícone X (hidden por padrão) -->
+            </button>
+        </div>
+    </header>
+    
+    <!-- Hero Simplificado -->
+<section class="services-hero">
+    <div class="container">
+        <p class="hero-subtitle">Soluções técnicas completas para sua operação industrial</p>
+    </div>
+</section>
+
+<!-- Grade de Serviços Moderna -->
+<section class="services-grid-section">
+    <div class="container">
+        <div class="services-intro">
+            <h2>Nossas <span>Soluções Técnicas</span></h2>
+            <p class="section-subtitle">Serviços especializados para cada necessidade em bioprocessos</p>
+        </div>
+        
+        <div class="services-grid">
+            <!-- Consultoria -->
+            <div class="service-card">
+                <div class="service-content">
+                    <div class="service-icon">
+                        <img src="assets/img/Consultoria.png" alt="Ícone Consultoria">
+                    </div>
+                    <h3>Consultoria em Bioprocessos</h3>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Análise de viabilidade técnica</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Otimização de parâmetros</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Protocolos personalizados</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#consultoria-details" class="service-cta">
+                    <span>Ver detalhes</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <!-- Polimento -->
+            <div class="service-card">
+                <div class="service-content">
+                    <div class="service-icon">
+                        <img src="assets/img/bioreactor.png" alt="Ícone Polimento">
+                    </div>
+                    <h3>Polimento & Assistência Técnica</h3>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Acabamento sanitário espelhado</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Manutenção preventiva</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Certificação de superfície</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#polimento-details" class="service-cta">
+                    <span>Ver cases</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <!-- Adicione os outros serviços aqui -->
+        </div>
+    </div>
+</section>
+            
+            <!-- Adicione os outros 3 serviços aqui -->
+        </div>
+    </div>
+</section>
+
+<!-- Detalhes da Consultoria (Exemplo) -->
+<section class="service-details" id="consultoria-details">
+    <div class="container">
+        <div class="detail-content">
+            <h2><span>Consultoria Técnica</span> RFC</h2>
+            
+            <div class="detail-columns">
+                <div class="detail-text">
+                    <h3><i class="fas fa-search"></i> Análise Completa</h3>
+                    <p>Nossa equipe de engenheiros especializados realiza um diagnóstico completo do seu processo atual, identificando oportunidades de melhoria e otimização.</p>
+                    
+                    <div class="detail-points">
+                        <div class="point">
+                            <div class="point-icon">
+                                <i class="fas fa-dna"></i>
+                            </div>
+                            <div class="point-content">
+                                <h4>Caracterização Biológica</h4>
+                                <p>Análise do comportamento celular e necessidades específicas</p>
+                            </div>
+                        </div>
+                        
+                        <div class="point">
+                            <div class="point-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="point-content">
+                                <h4>Análise de Dados</h4>
+                                <p>Avaliação de parâmetros e desempenho histórico</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="detail-image">
+                    <img src="assets/img/6502429.jpg" alt="Equipe de consultoria">
+                    <div class="image-label">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="detail-cta">
+                <p>Precisa de uma avaliação técnica personalizada?</p>
+                <a href="contato.html" class="cta-button">Solicitar Consultoria</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Diferenciais RFC -->
+<section class="differentials">
+    <div class="container">
+        <h2>Por que escolher a <span>RFC</span>?</h2>
+        <p class="section-subtitle">Especialização técnica e soluções em bioprocessos a mais de 20 Anos</p>
+        
+        <div class="diff-grid">
+            <!-- Diferencial 1 -->
+            <div class="diff-card">
+                <div class="diff-icon">
+                    <i class="fas fa-microscope"></i>
+                </div>
+                <h3>Especialização no segmento</h3>
+                <p>Atuamos exclusivamente com bioprocessos, entendendo profundamente cultura celular, fermentação e biorreatores.</p>
+            </div>
+            
+            <!-- Diferencial 2 -->
+            <div class="diff-card">
+                <div class="diff-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3>Equipamentos de alta qualidade</h3>
+                <p>Biorreatores confiáveis, duráveis e com excelente desempenho para diferentes volumes e aplicações.</p>
+            </div>
+            
+            <!-- Diferencial 3 -->
+            <div class="diff-card">
+                <div class="diff-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Suporte técnico especializado</h3>
+                <p>Time que fala a linguagem da biotecnologia e resolve problemas com precisão técnica.</p>
+            </div>
+            
+            <!-- Diferencial 4 -->
+            <div class="diff-card">
+                <div class="diff-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3>Parcerias reconhecidas</h3>
+                <p>Validada por universidades, centros de pesquisa e indústrias do setor.</p>
+            </div>
+            
+            <!-- Diferencial 5 -->
+            <div class="diff-card">
+                <div class="diff-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Treinamento e capacitação</h3>
+                <p>Preparamos sua equipe para operação eficiente e segura dos equipamentos.</p>
+            </div>
+            
+            <!-- Diferencial 6 -->
+            <div class="diff-card">
+                <div class="diff-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3>Inovação constante</h3>
+                <p>Sempre atualizados com as tecnologias mais modernas em bioprocessos.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- Footer Premium -->
+   <footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <img src="assets/img/Logo.png" alt="RFC BioProcessos" width="80">
+                <p>Tecnologia e inovação em bioprocessos industriais desde 2014.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/suapagina" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="http://wa.me/5511988095596"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Links Rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="#clientes">Clientes</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> São Paulo - SP, Brasil</li>
+                    <li><a href="http://wa.me/5511988095596"><i class="fas fa-phone"></i> +55 (11) 98809-5596</li></a>
+                    <li><i class="fas fa-envelope"></i> contato@rfcbioprocessos.com.br</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 RFC BioProcessos. Todos os direitos reservados.</p>
+            <div class="legal-links">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Serviço</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/chatbot.js"></script>
+</body>
+</html>

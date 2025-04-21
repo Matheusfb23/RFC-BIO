@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RFC BioProcessos - Soluções industriais em biorreatores para biofármacos, vacinas e biocombustíveis">
+    <title>Produtos | Tecnologia em Bioprocessos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/produtos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/img/Logo.png" alt="RFC BioProcessos" width="100">
+            </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html" class="cta-button">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i> <!-- Ícone X (hidden por padrão) -->
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="products-hero">
+        <div class="container">
+            <h1>Tecnologia em <span>Biorreatores</span></h1>
+            <p>Soluções personalizadas para fermentação industrial, cultivo celular e bioprocessos avançados</p>
+            <a href="#catalogo" class="cta-button">Ver Catálogo</a>
+        </div>
+    </section>
+
+    <!-- Filtro de Produtos -->
+    <section class="product-filter">
+        <div class="container">
+            <div class="filter-options">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="bioreatores">Biorreatores</button>
+                <button class="filter-btn" data-filter="fermentacao">Fermentação</button>
+                <button class="filter-btn" data-filter="acessorios">Acessórios</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo de Produtos -->
+    <section id="catalogo" class="products-catalog">
+        <div class="container">
+            <!-- Produto 1 -->
+            <article class="product-card" data-category="bioreatores">
+                <div class="product-image">
+                    <img src="assets/img/Biorreatores/Piloto.jpg" alt="Biorreator Piloto">
+                    <div class="product-badge">Mais Vendido</div>
+                </div>
+                <div class="product-info">
+                    <h2>Biorreator Piloto</h2>
+                    <p>Sistema modular para processos de 5 a 500 litros, com controle automatizado de pH, DO e temperatura.</p>
+                    
+                    <h3>Especificações Técnicas</h3>
+                    <ul class="product-features">
+                        <li><i class="fas fa-check-circle"></i> Volume útil: 5-500L</li>
+                        <li><i class="fas fa-check-circle"></i> Material: Aço inox 316L</li>
+                        <li><i class="fas fa-check-circle"></i> Controle PID avançado</li>
+                        <li><i class="fas fa-check-circle"></i> Compatível com SIP/CIP</li>
+                    </ul>
+                    
+                    <div class="product-actions">
+                        <button class="btn-primary request-quote" data-product="Biorreator Piloto">
+                            <i class="fas fa-file-alt"></i> Solicitar Cotação
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Produto 2 -->
+            <article class="product-card" data-category="fermentacao">
+                <div class="product-image">
+                    <img src="assets/img/Biorreatores/industrial.jpg" alt="Fermentador Industrial FI-1000">
+                    <div class="product-badge">Novidade</div>
+                </div>
+                <div class="product-info">
+                    <h2>Biorreator Industrial FI-1000</h2>
+                    <p>Sistema robusto para fermentação em larga escala com controle de espuma e injeção de nutrientes.</p>
+                    
+                    <h3>Especificações Técnicas</h3>
+                    <ul class="product-features">
+                        <li><i class="fas fa-check-circle"></i> Volume útil: 100-1000L</li>
+                        <li><i class="fas fa-check-circle"></i> Agitação magnética</li>
+                        <li><i class="fas fa-check-circle"></i> Sistema anti-espuma</li>
+                        <li><i class="fas fa-check-circle"></i> Certificação ASME</li>
+                    </ul>
+                    
+                    <div class="product-actions">
+                        <button class="btn-primary request-quote" data-product="Industrial">
+                            <i class="fas fa-file-alt"></i> Solicitar Cotação
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Produto 3 -->
+            <article class="product-card" data-category="acessorios">
+                <div class="product-image">
+                    <img src="assets/img/Biorreatores/tanque-armazenagem.jpg" alt="Tanque de Armazenagem">
+                </div>
+                <div class="product-info">
+                    <h2>Tanque de Armazenagem</h2>
+                    <p>Conjunto completo de sensores para monitoramento em tempo real de parâmetros críticos.</p>
+                    
+                    <h3>Especificações Técnicas</h3>
+                    <ul class="product-features">
+                        <li><i class="fas fa-check-circle"></i> pH, DO, temperatura</li>
+                        <li><i class="fas fa-check-circle"></i> Calibração automática</li>
+                        <li><i class="fas fa-check-circle"></i> Saída 4-20mA e digital</li>
+                        <li><i class="fas fa-check-circle"></i> Compatível com maioria dos biorreatores</li>
+                    </ul>
+                    
+                    <div class="product-actions">
+                        <button class="btn-primary request-quote" data-product="Tanque de Armazenagem">
+                            <i class="fas fa-file-alt"></i> Solicitar Cotação
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <!-- CTA de Contato -->
+    <section class="product-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Precisa de um equipamento personalizado?</h2>
+                <p>Nossa equipe de engenheiros pode desenvolver soluções sob medida para suas necessidades específicas.</p>
+                <a href="../contato.html" class="cta-button">
+                    <i class="fas fa-envelope"></i> Fale com nossos especialistas
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Premium -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/img/Logo.png" alt="RFC BioProcessos" width="80">
+                    <p>Tecnologia e inovação em bioprocessos industriais desde 2014.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/suapagina" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="http://wa.me/5511988095596"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="#clientes">Clientes</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo - SP, Brasil</li>
+                        <li><a href="http://wa.me/5511988095596"><i class="fas fa-phone"></i> +55 (11) 98809-5596</li></a>
+                        <li><i class="fas fa-envelope"></i> contato@rfcbioprocessos.com.br</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2023 RFC BioProcessos. Todos os direitos reservados.</p>
+                <div class="legal-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Serviço</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Cotação -->
+    <div id="quoteModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Solicitar Cotação: <span id="modalProductName"></span></h2>
+            <form id="quoteForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Nome Completo" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="E-mail" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Telefone" required>
+                </div>
+                <div class="contact-method">
+                    <label>Preferência de contato:</label><br>
+                    <label><input type="radio" name="contactMethod" value="Telefone" checked> Telefone</label>
+                    <label><input type="radio" name="contactMethod" value="WhatsApp"> WhatsApp</label>
+                </div>                
+                <div class="form-group">
+                    <textarea id="message" placeholder="Detalhes da sua solicitação"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">
+                    <i class="fas fa-paper-plane"></i> Enviar Solicitação
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/chatbot.js"></script>
+</body>
+</html>
